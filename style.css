@@ -76,6 +76,13 @@ section {
     padding-left: 2rem;
 }
 
+.social-icon {
+    font-size: 8rem;
+}
+
+.social-icon, a {
+    text-decoration: none;
+}
 
 @media screen and (max-width: 900px) {
     .about-img {
@@ -97,6 +104,11 @@ section {
     .contact-details {
         padding-top: 1rem;
         padding-left: 0rem;
+    }
+
+    .social-icon {
+        font-size: 4rem;
+        padding-top: 2rem;
     }
 }
 
